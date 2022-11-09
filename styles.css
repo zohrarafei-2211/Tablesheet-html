@@ -1,0 +1,51 @@
+body {
+    margin: 8px;
+    padding: 0%;
+    background-color:#FFE4EF;
+}
+table, th, td {
+    border: 1px solid green;
+  
+
+}
+
+th, td {
+    padding: 15px;
+    font-size: 15px;
+    font-family: serif;
+}
+
+.navbar {
+    background-color: lightpink;
+    font-weight: bold;
+    font-size: 20px;
+}
+.first-row {
+    background-color: white;
+    
+}
+tr:nth-child(even) {
+    background-color: #af88c7;
+    /* this the table class*/
+  }
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    weight: 60%;
+    
+}
+h1 {
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2 {
+font-weight: bolder;
+font-size: 30px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color:lightsalmon;
+}
+
+h1, h2 {
+    text-align: center;
+}
